@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CineMax - Movie Streaming</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar Start -->
+    <header class="navbar">
+
+        <div class="logo">
+            Cine<span>Max</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#trending">Trending</a>
+            <a href="#movies">Movies</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#movies" class="nav-button">Explore Movies</a>
+
+    </header>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="tagline">YOUR MOVIE WORLD</p>
+
+            <h1>Discover Your Next <span>Favorite Movie</span></h1>
+
+            <p class="hero-description">
+                Explore amazing movies, discover trending titles,
+                and find your next movie night favorite.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#movies" class="primary-button">Explore Movies</a>
+                <a href="#trending" class="secondary-button">Trending Now</a>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Hero Section End -->
+
+
+    <!-- Search Section Start -->
+    <section class="search-section">
+
+        <h2>Find Your Movie</h2>
+
+        <form class="search-box" action="#movies" method="get">
+
+            <input
+                type="search"
+                name="movie"
+                placeholder="Search your favorite movie..."
+                aria-label="Search movies"
+            >
+
+            <button type="submit">Search</button>
+
+        </form>
+
+    </section>
+    <!-- Search Section End -->
+
+
+    <!-- Trending Movies Start -->
+    <section class="movie-section" id="trending">
+
+        <div class="section-heading">
+            <div>
+                <p class="small-heading">POPULAR RIGHT NOW</p>
+                <h2>Trending Movies</h2>
+            </div>
+
+            <a href="#movies" class="view-all">View All &rarr;</a>
+        </div>
+
+
+        <div class="movie-container">
+
+            <!-- Movie 1 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+                    alt="Oppenheimer movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>Oppenheimer</h3>
+                    <p>2023 | Drama</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 8.3</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Movie 2 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg"
+                    alt="Deadpool and Wolverine movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>Deadpool & Wolverine</h3>
+                    <p>2024 | Action</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 7.5</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Movie 3 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/1pdfLvkbY9ohJlCjQH2CZjjYVvJ.jpg"
+                    alt="Interstellar movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>Interstellar</h3>
+                    <p>2014 | Sci-Fi</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 8.7</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Movie 4 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+                    alt="The Dark Knight movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>The Dark Knight</h3>
+                    <p>2008 | Action</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 9.0</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Trending Movies End -->
+
+
+    <!-- All Movies Start -->
+    <section class="movie-section" id="movies">
+
+        <div class="section-heading">
+            <div>
+                <p class="small-heading">EXPLORE OUR COLLECTION</p>
+                <h2>Popular Movies</h2>
+            </div>
+        </div>
+
+
+        <div class="movie-container">
+
+            <!-- Movie 5 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"
+                    alt="Joker movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>Joker</h3>
+                    <p>2019 | Thriller</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 8.4</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Movie 6 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/5KCVkau1HEl7ZzfPsKAPM0sMiKc.jpg"
+                    alt="The Batman movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>The Batman</h3>
+                    <p>2022 | Action</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 7.8</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Movie 7 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/8b8R8l88Qje9dn9OE8PY05Nxl1X.jpg"
+                    alt="Avatar The Way of Water movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>Avatar 2</h3>
+                    <p>2022 | Adventure</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 7.5</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Movie 8 -->
+            <div class="movie-card">
+
+                <img
+                    src="https://image.tmdb.org/t/p/w500/1XDDXPXGiI8id7MrUxK36ke7gkX.jpg"
+                    alt="Kung Fu Panda 4 movie poster"
+                >
+
+                <div class="movie-info">
+                    <h3>Kung Fu Panda 4</h3>
+                    <p>2024 | Animation</p>
+                    <div class="movie-bottom">
+                        <span class="rating">★ 6.3</span>
+                        <a href="#about" class="watch-button">Watch Now</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- All Movies End -->
+
+
+    <!-- About Section Start -->
+    <section class="about-section" id="about">
+
+        <h2>Welcome to CineMax</h2>
+
+        <p>
+            CineMax is a movie discovery website where you can explore
+            movie posters, check ratings, and discover popular titles.
+            Find something exciting for your next movie night.
+        </p>
+
+        <a href="#home" class="primary-button">Back to Home</a>
+
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Footer Start -->
+    <footer class="footer">
+
+        <h2>Cine<span>Max</span></h2>
+
+        <p>Your next favorite movie is waiting to be discovered.</p>
+
+        <p class="copyright">
+            &copy; 2026 CineMax. All rights reserved.
+        </p>
+
+    </footer>
+    <!-- Footer End -->
+
+</body>
+
+</html>
